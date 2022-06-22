@@ -15,7 +15,6 @@ phases:
       - chmod +x ./kubectl
       - mv ./kubectl /usr/local/bin/kubectl
       
-      
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
